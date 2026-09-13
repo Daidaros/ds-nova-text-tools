@@ -14,29 +14,11 @@ Extension for [Panic Nova](https://nova.app/) with editorial text tools used by 
 
 ## Examples
 
-```text
-"Lorem ipsum dolor sit amet"
-```
-
-```text
-«Lorem ipsum dolor sit amet»
-```
-
-```text
-Lorem ipsum: edición rápida & contenido básico
-```
-
-```text
-lorem-ipsum-edicion-rapida-y-contenido-basico
-```
-
-```text
-Dolor sit amet: versión 2.0 / página 15
-```
-
-```text
-dolor-sit-amet-version-20-pagina-15
-```
+| Before | After |
+| --- | --- |
+| `"Lorem ipsum dolor sit amet"` | `«Lorem ipsum dolor sit amet»` |
+| `Lorem ipsum: edición rápida & contenido básico` | `lorem-ipsum-edicion-rapida-y-contenido-basico` |
+| `Dolor sit amet: versión 2.0 / página 15` | `dolor-sit-amet-version-20-pagina-15` |
 
 ## Installation
 
