@@ -15,36 +15,47 @@ Extension for [Panic Nova](https://nova.app/) with editorial text tools used by 
 ## Examples
 
 ```text
-"Qué es la Ley 21.719"
+"Lorem ipsum dolor sit amet"
 ```
 
 ```text
-«Qué es la Ley 21.719»
+«Lorem ipsum dolor sit amet»
 ```
 
 ```text
-¿Qué es la Ley 21.719 y cómo afecta a Shopify Chile?
+Lorem ipsum: edición rápida & contenido básico
 ```
 
 ```text
-que-es-la-ley-21719-y-como-afecta-a-shopify-chile
+lorem-ipsum-edicion-rapida-y-contenido-basico
 ```
 
 ```text
-Autos usados: 7 días / 300 km de garantía
+Dolor sit amet: versión 2.0 / página 15
 ```
 
 ```text
-autos-usados-7-dias-300-km-de-garantia
+dolor-sit-amet-version-20-pagina-15
 ```
 
-## Installation for development
+## Installation
+
+### From a release
+
+1. Download the latest release from [GitHub Releases](https://github.com/Daidaros/ds-nova-text-tools/releases).
+2. Unzip the downloaded file.
+3. Open Nova.
+4. Choose `Extensions > Activate Project as Extension...`.
+5. Select the `TextTools.novaextension` folder.
+6. Use the commands from Nova's `Editor` menu.
+
+### From source
 
 1. Clone this repository.
 2. Open Nova.
 3. Choose `Extensions > Activate Project as Extension...`.
 4. Select the `TextTools.novaextension` folder.
-5. Use the commands from `Editor > digiSTART Text Tools`.
+5. Use the commands from Nova's `Editor` menu.
 
 You can also validate the extension with Nova's command line tools:
 
