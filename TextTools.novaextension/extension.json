@@ -1,0 +1,28 @@
+{
+  "identifier": "cl.digistart.TextTools",
+  "name": "digiSTART Text Tools",
+  "organization": "digiSTART",
+  "vendor": "digiSTART",
+  "description": "Editorial text tools for Markdown quotes and WordPress-style permalinks.",
+  "version": "0.1.0",
+  "categories": ["commands"],
+  "license": "MIT",
+  "repository": "https://github.com/digistart/ds-nova-text-tools",
+  "bugs": "https://github.com/digistart/ds-nova-text-tools/issues",
+  "min_runtime": "10",
+  "main": "main.js",
+  "commands": {
+    "editor": [
+      {
+        "title": "RAE: Formatear comillas para Markdown",
+        "command": "formatMarkdownRaeQuotes",
+        "when": "editorHasFocus && editorHasSelection"
+      },
+      {
+        "title": "WordPress: Convertir selección a permalink",
+        "command": "convertSelectionToWordPressPermalink",
+        "when": "editorHasFocus && editorHasSelection"
+      }
+    ]
+  }
+}

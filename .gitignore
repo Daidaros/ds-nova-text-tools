@@ -1,0 +1,21 @@
+.DS_Store
+
+# Nova / macOS local state
+*.nova
+*.novaproject
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies and build output, in case the extension grows later
+node_modules/
+dist/
+build/
+coverage/
+
+# Local environment files
+.env
+.env.*
