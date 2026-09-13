@@ -7,8 +7,8 @@
   "version": "0.1.0",
   "categories": ["commands"],
   "license": "MIT",
-  "repository": "https://github.com/digistart/ds-nova-text-tools",
-  "bugs": "https://github.com/digistart/ds-nova-text-tools/issues",
+  "repository": "https://github.com/Daidaros/ds-nova-text-tools",
+  "bugs": "https://github.com/Daidaros/ds-nova-text-tools/issues",
   "min_runtime": "10",
   "main": "main.js",
   "commands": {

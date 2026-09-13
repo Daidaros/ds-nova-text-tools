@@ -79,12 +79,12 @@ ds-nova-text-tools
 After creating the repository on GitHub:
 
 ```sh
-git remote add origin git@github.com:digistart/ds-nova-text-tools.git
+git remote add origin git@github.com:Daidaros/ds-nova-text-tools.git
 git branch -M main
 git push -u origin main
 ```
 
-If the GitHub organization or account differs, replace `digistart` with the correct owner.
+If the GitHub organization or account differs later, replace `Daidaros` with the correct owner.
 
 ## License
 
