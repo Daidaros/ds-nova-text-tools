@@ -1,9 +1,13 @@
-# v0.1.0
+# v0.2.0
 
-First public release of `ds-nova-text-tools`.
+Adds Bible.com text formatting to `ds-nova-text-tools`.
 
 ## Included
 
+- `Bible.com: Formatear texto bíblico`
+  - Formats selected text copied from Bible.com.
+  - Supports normal paragraph output without verse numbers.
+  - Supports verse-separated output with the verse number and verse text on separate lines.
 - `RAE: Formatear comillas para Markdown`
   - Converts straight and curly English double quotes to Spanish angle quotes.
   - Preserves Markdown inline code and fenced code blocks.

@@ -2,7 +2,7 @@
 
 Extension for [Panic Nova](https://nova.app/) with editorial text tools used by digiSTART.
 
-## Initial tools
+## Tools
 
 - `RAE: Formatear comillas para Markdown`
   - Converts straight and curly English double quotes to Spanish angle quotes: `«...»`.
@@ -11,6 +11,10 @@ Extension for [Panic Nova](https://nova.app/) with editorial text tools used by 
 - `WordPress: Convertir selección a permalink`
   - Converts selected text into a WordPress-style slug.
   - Removes accents, lowercases text, converts `&` to `y`, replaces punctuation with hyphens, collapses repeated hyphens, and keeps numbers.
+- `Bible.com: Formatear texto bíblico`
+  - Formats selected text copied from Bible.com.
+  - Can remove verse numbers and keep the text as normal paragraphs.
+  - Can split each verse into a number line followed by its text.
 
 ## Examples
 
@@ -19,6 +23,32 @@ Extension for [Panic Nova](https://nova.app/) with editorial text tools used by 
 | `"Lorem ipsum dolor sit amet"` | `«Lorem ipsum dolor sit amet»` |
 | `Lorem ipsum: edición rápida & contenido básico` | `lorem-ipsum-edicion-rapida-y-contenido-basico` |
 | `Dolor sit amet: versión 2.0 / página 15` | `dolor-sit-amet-version-20-pagina-15` |
+
+### Bible.com
+
+Input:
+
+```text
+5Haced morir, pues, lo terrenal en vosotros: fornicación, impureza, pasiones desordenadas, malos deseos y avaricia, que es idolatría; 6cosas por las cuales la ira de Dios viene sobre los hijos de desobediencia,
+```
+
+Paragraph output:
+
+```text
+Haced morir, pues, lo terrenal en vosotros: fornicación, impureza, pasiones desordenadas, malos deseos y avaricia, que es idolatría; cosas por las cuales la ira de Dios viene sobre los hijos de desobediencia,
+```
+
+Verse output:
+
+```text
+5
+
+Haced morir, pues, lo terrenal en vosotros: fornicación, impureza, pasiones desordenadas, malos deseos y avaricia, que es idolatría;
+
+6
+
+cosas por las cuales la ira de Dios viene sobre los hijos de desobediencia,
+```
 
 ## Installation
 

@@ -6,8 +6,14 @@ Editorial utilities for Panic Nova.
 
 - `RAE: Formatear comillas para Markdown`
 - `WordPress: Convertir selección a permalink`
+- `Bible.com: Formatear texto bíblico`
 
 These commands operate on the current editor selection. Multiple selections are supported.
+
+The Bible.com command asks which output to use:
+
+- `Párrafos normales (sin números)` removes verse numbers and keeps paragraph breaks.
+- `Versículos separados (número y texto)` puts each verse number and verse text on separate lines.
 
 ## Installation
 
